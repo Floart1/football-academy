@@ -9,16 +9,17 @@
 </head>
 <body>
   <header class="navbar">
-<nav>
-<div class="logo"><a href="#top"><alt="">F.C Ferizaj </a></div>
-<ul>
+    <div class="nav-container">
+<div class="logo"><a href="#top"><alt=""></alt>F.C Ferizaj</a></div>
+
+<ul class="nav-links">
 <li><a href="#about">About</a></li>
 <li><a href="#programs">Programs</a></li>
 <li><a href="#coaches">Coaches</a></li>
 <li><a href="#contact">Contact</a></li>
-
-<a href="admin/login.php" class="admin-btn">Admin Login</a>
-</nav>
+<li><a href="admin/login.php" class="admin-btn">Admin Login</a>
+</li>
+</ul>
 </header>
 <section class="hero fade-in" id="home">
 <div class="content">
@@ -96,7 +97,7 @@
     <p><i class="fas fa-envelope"></i>
        <a href="mailto:tahirifloart@gmail.com" class="email-link">tahirifloart@gmail.com</a></p>
     <p><i class="fas fa-map-marker-alt"></i>
-      <a href="https://www.google.com/maps?q=42.375029464179285, 21.137242359853055"
+      <a href="https://www.google.com/maps?q=42.37490453008014, 21.13723697661487"
     target="_blank"
     class="location-link">Braim Ademi, Loshkobare 70000</a>
     </p>
